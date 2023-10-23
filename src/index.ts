@@ -19,8 +19,8 @@ app.use(bodyParser.json());
 
 const server = http.createServer(app);
 
-server.listen(8000, () => {
-  console.log('Server is running on port 8000')
+server.listen(8080, () => {
+  console.log('Server is running on port 8080')
 })
 
 const MONGO_URL = 'mongodb+srv://lucas:Khusiim%40123@cluster0.xubaqd3.mongodb.net/?retryWrites=true&w=majority'
